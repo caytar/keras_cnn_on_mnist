@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+    conradcnn:
+        build: .
+        restart: always
+        ports:
+            - "8888:8888"
+
+
