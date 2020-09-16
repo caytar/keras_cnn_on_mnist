@@ -38,4 +38,4 @@ COPY source_codes/* /opt/src/
 EXPOSE 8888
 
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
-CMD ["/opt/conda/bin/jupyter", "notebook", "--port=8888", "--allow-root", "--notebook-dir='/opt/src'", "--NotebookApp.token=conrad2020", "--no-browser", "--ip=0.0.0.0"]
+CMD ["/opt/conda/bin/jupyter", "notebook", "--port=8888", "--allow-root", "--notebook-dir='/opt/src'", "--NotebookApp.token=kerasexample", "--no-browser", "--ip=0.0.0.0"]
