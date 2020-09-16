@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-    conradcnn:
+    kerascnn:
         build: .
         restart: always
         ports:
