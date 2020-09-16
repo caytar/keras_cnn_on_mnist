@@ -14,14 +14,14 @@ apt-get install docker docker-compose
 ```
 
 
-#### 3) Start building the dockerimage with the command below in downloaded directory
+#### 3) Start building the docker image with the command below in downloaded directory
 
 ```
 docker-compose up -d
 ```
 
 In Dockerfile the CNN implementation is downloaded from keras examples directory and then a *conda* environment is created with keras and jupyter notebook installed in it.
-At the end, you have a Jupyteer Lab in the docker image running at port 8888 with the token *conrad2020*
+At the end, you have a Jupyter Lab in the docker image running at port 8888 with the token *kerasexample*
 
 
 
